@@ -4,7 +4,7 @@ Simple implementation of basic functions of `IPX protocol` for `DOS`.
 
 You can compile it yourself with `TurboC` (tested for version `2.01`).
 
-Provided compile version in tags as `.lib`.
+[Provided compiled version](https://github.com/DanArmor/dos-ipx/releases/tag/v1.0.0) in tags as `.obj`.
 
 If you want to read some good IPX code - [DOOM(1993)](https://github.com/id-Software/DOOM/tree/master/ipx) is using it for multiplayer game.
 
