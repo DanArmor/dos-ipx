@@ -9,9 +9,11 @@ You can compile it yourself with `TurboC` (tested for version `2.01`).
 If you want to read some good IPX code - [DOOM(1993)](https://github.com/id-Software/DOOM/tree/master/ipx) is using it for multiplayer game.
 
 Format of packet:
+
 ![ipx_header](readme/ipx_header.jpg)
 
 Format of ECB - application use it for sending/receiving packet.
+
 ![ipx_ecb](readme/ipx_ecb.jpg)
 
 ## Resources
