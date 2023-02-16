@@ -3,7 +3,6 @@
 /*Коды функций*/
 #define _IPXOpenSocket 0x00
 #define _IPXCloseSocket 0x01
-#define _IPXGetLocalTarget 0x09
 #define _IPXListenForPacket 0x04
 #define _IPXSendPacket 0x03
 #define _IPXRelinquishControl 0x0A
@@ -62,7 +61,6 @@ int IPXInit(void);
 
 int IPXOpenSocket(int socketType, int *socketNum);
 void IPXCloseSocket(int socketNum);
-void IPXGetLocalTarget(void far *buf);
 void IPXListenForPacket(void far *ECB);
 void IPXSendPacket(void far *ECB);
 void IPXRelinquishControl(void);

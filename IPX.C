@@ -34,13 +34,6 @@ void IPXCloseSocket(int socketNum){
 	IPXDrvInvoke();
 }
 
-void IPXGetLocalTarget(void far *buf){
-	_ES = FP_SEG(buf);
-	_SI = FP_OFF(buf);
-	_BX = _IPXGetLocalTarget;
-	IPXDrvInvoke();
-}
-
 void IPXListenForPacket(void far *ECB){
 	_BX = _IPXListenForPacket;
 	_ES = FP_SEG(ECB);
